@@ -1,0 +1,145 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#ebebeb;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+.row{
+background-color:#ebebeb; 
+}
+
+
+.slider-card,.input-box-outer,.table-responsive{
+    margin:10px 0px;
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgb(113, 108, 108);
+}
+.slider-tab{
+    height: 100%;
+}
+
+.slider-tab p.slider-heading.active{
+    background-color: #a864a8;
+  
+    border-radius: 20px;
+    color:#fff;
+}
+
+.slider-heading{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 15px;
+    white-space: nowrap;
+}
+.swiper-slide{
+    margin:0px 20px;
+    max-width: 20%;
+    margin: 0px 40px;
+}
+.swiper-slide .card{
+    background-color: #5cc4ce;
+    border-radius: 8px;
+    width: 100%;
+}
+.swiper-slide .card.card2{
+    background-color: #faa819;
+}
+.swiper-slide .card.card3{
+    background-color: #c5dd52;
+}
+.swiper-slide .card.card-joinee{
+    background-color: #e4ebf2;
+}
+.swiper-wrapper{
+margin: 0px 14px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    display: none;
+}
+i.fa-solid.fa-chevron-right ,i.fa-solid.fa-chevron-left{
+    color:#000;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    height: 70px ;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+ .profile img{
+    border-radius: 50%;
+    
+}
+.empname{
+font-size: 14px;
+font-weight: 500;
+text-transform: capitalize;
+    }
+    .inpt-filed{
+        padding: 8px 25px;
+        font-size: 16px;
+        color: rgb(128, 124, 124);
+        border: none;
+        background-color: #f3f3f3;
+    }
+    .row .user-profile{
+        height: 40px ;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .row .user-profile img{
+        border-radius: 50%;
+    }
+    .tbl-head{
+        white-space: nowrap;
+    }
+    .pagination-section{
+        background-color: #fff;
+    }
+    nav{
+        position: absolute;
+        right: 30px;
+        bottom: 0px;
+    }
+    
+
+    @media screen and (max-width: 767px) {
+        .slider-card{
+            padding: 5px 5px;
+        }
+        .swiper-slide{
+            margin:0px 15px;
+            max-width:35%;
+            
+        }
+        .slider-heading{
+            padding: 5px 10px;
+        }
+        .inpt-box{
+           flex: 1;
+           margin: 5px 2px;
+        }
+        .inpt-filed{
+            padding: 5px 5px;
+        }
+        .swiper-button-prev, .swiper-rtl .swiper-button-next{
+            left:0px !important;
+        }
+        .swiper-button-next, .swiper-rtl .swiper-button-prev{
+            right: 0px !important;
+        }
+        .table{
+            overflow-x: scroll;
+        }
+      }
