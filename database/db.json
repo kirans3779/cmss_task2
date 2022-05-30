@@ -1,0 +1,23 @@
+[
+    {
+    "name": "kiran sonwane",
+    "email":"kirans@3779@gmail.com",
+    "mobile no":9960455716,
+    "empId":"emp1"
+
+    },
+    {
+        "name": "suraj sonwane",
+        "email":"surajs@3779@gmail.com",
+        "mobile no":9960455716,
+        "empId":"emp2"
+    
+        },
+         {
+            "name": "gaurav sonwane",
+            "email":"gauravs@3779@gmail.com",
+            "mobile no":9960455716,
+            "empId":"emp3"
+        
+            }
+]

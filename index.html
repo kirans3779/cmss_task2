@@ -243,16 +243,16 @@
                       <div class="input-box">
                           <form action="" class="d-flex flex-wrap flex-md-wrap justify-content-center justify-content-md-around">
                               <div class="inpt-box">
-                                <input type="text" placeholder="Name" class="inpt-filed">
+                                <input type="text" placeholder="Name" class="inpt-filed" id="name-input" onkeyup="searchinput()">
                               </div>
                               <div class="inpt-box">
-                                <input type="text" placeholder="Dept" class="inpt-filed">
+                                <input type="text" placeholder="Dept" class="inpt-filed"  id="dept-input">
                               </div>
                               <div class="inpt-box">
-                                <input type="text" placeholder="Employee Id" class="inpt-filed">
+                                <input type="text" placeholder="Employee Id" class="inpt-filed" id="emp-input">
                               </div>
                               <div class="inpt-box">
-                                <input type="text" placeholder="Designation " class="inpt-filed">
+                                <input type="text" placeholder="Designation " class="inpt-filed" id="desig-input">
                               </div>
                               <div class="inpt-box">
                                 <i class="fa fa-search" aria-hidden="true"></i>
@@ -270,7 +270,7 @@
           <div class="row">
               <div class="col-12">
                   <div class="table-responsive">
-                    <table class="table table-striped table-borderless ">
+                    <table class="table table-striped table-borderless " >
                         <thead>
                           <tr>
                             <th scope="col" class="tbl-head">User</th>
@@ -282,7 +282,7 @@
                             <th scope="col" class="tbl-head">Phone No</th>
                           </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="company-table">
                           <tr>
                             <th scope="row">
                                 <div class="user-profile">
@@ -320,126 +320,11 @@
                                 </p>
                             </td>
                           </tr>
-                          <tr>
-                            <th scope="row">
-                                <div class="user-profile">
-                                    <img src="./imges/AbhirathNC.jpg" alt="">
-                                </div>
-                            </th>
-                            <td>
-                                <p class="full-name">
-                                    Kajal Dhokalia
-                                </p>
-                            </td>
-                            <td>
-                                <p class="dept-name">
-                                    Admin
-                                </p>
-                            </td>
-                            <td>
-                                <p class="empId">
-                                    123
-                                </p>
-                            </td>
-                            <td>
-                                <p class="email">
-                                    kirans3779@gmail.com
-                                </p>
-                            </td>
-                            <td>
-                                <p class="designation">
-                                    Sr.Developer
-                                </p>
-                            </td>
-                            <td>
-                                <p class="phone-number">
-                                   9960455716
-                                </p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">
-                                <div class="user-profile">
-                                    <img src="./imges/AbhirathNC.jpg" alt="">
-                                </div>
-                            </th>
-                            <td>
-                                <p class="full-name">
-                                    Kajal Dhokalia
-                                </p>
-                            </td>
-                            <td>
-                                <p class="dept-name">
-                                    Admin
-                                </p>
-                            </td>
-                            <td>
-                                <p class="empId">
-                                    123
-                                </p>
-                            </td>
-                            <td>
-                                <p class="email">
-                                    kirans3779@gmail.com
-                                </p>
-                            </td>
-                            <td>
-                                <p class="designation">
-                                    Sr.Developer
-                                </p>
-                            </td>
-                            <td>
-                                <p class="phone-number">
-                                   9960455716
-                                </p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">
-                                <div class="user-profile">
-                                    <img src="./imges/AbhirathNC.jpg" alt="">
-                                </div>
-                            </th>
-                            <td>
-                                <p class="full-name">
-                                    Kajal Dhokalia
-                                </p>
-                            </td>
-                            <td>
-                                <p class="dept-name">
-                                    Admin
-                                </p>
-                            </td>
-                            <td>
-                                <p class="empId">
-                                    123
-                                </p>
-                            </td>
-                            <td>
-                                <p class="email">
-                                    kirans3779@gmail.com
-                                </p>
-                            </td>
-                            <td>
-                                <p class="designation">
-                                    Sr.Developer
-                                </p>
-                            </td>
-                            <td>
-                                <p class="phone-number">
-                                   9960455716
-                                </p>
-                            </td>
-                          </tr>
-                          <tr>
+                         
                             <div class="pagination-section">
-                                <nav >
-                                    <ul class="pagination">
-                                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                      <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                <nav>
+                                    <ul class="pagination" id="pagination-wrapper">
+                                      
                                     </ul>
                                   </nav>
                               </div>
