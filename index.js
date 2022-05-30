@@ -300,7 +300,7 @@
     var state ={
       'querySet':empdata,
       'page':1,
-      'rows':3,
+      'rows':6,
     }
     // search
     
